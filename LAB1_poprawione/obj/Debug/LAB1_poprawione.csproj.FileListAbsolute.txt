@@ -1,0 +1,8 @@
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\bin\Debug\LAB1_poprawione.exe.config
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\bin\Debug\LAB1_poprawione.exe
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\bin\Debug\LAB1_poprawione.pdb
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\obj\Debug\LAB1_poprawione.csproj.AssemblyReference.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\obj\Debug\LAB1_poprawione.csproj.SuggestedBindingRedirects.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\obj\Debug\LAB1_poprawione.csproj.CoreCompileInputs.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\obj\Debug\LAB1_poprawione.exe
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net Java\LAB1_poprawione\obj\Debug\LAB1_poprawione.pdb
