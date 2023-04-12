@@ -1,0 +1,17 @@
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\bin\Debug\net6.0-windows\LAB2.exe
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\bin\Debug\net6.0-windows\LAB2.deps.json
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\bin\Debug\net6.0-windows\LAB2.runtimeconfig.json
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\bin\Debug\net6.0-windows\LAB2.dll
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\bin\Debug\net6.0-windows\LAB2.pdb
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.csproj.AssemblyReference.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.Form1.resources
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.csproj.GenerateResource.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.AssemblyInfoInputs.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.AssemblyInfo.cs
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.csproj.CoreCompileInputs.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.dll
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\refint\LAB2.dll
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.pdb
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\LAB2.genruntimeconfig.cache
+C:\Users\mrkow\OneDrive\Pulpit\Studia\Net_Java\LAB2\LAB2\obj\Debug\net6.0-windows\ref\LAB2.dll
