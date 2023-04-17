@@ -36,7 +36,6 @@ namespace LAB2
             string content = await response.Content.ReadAsStringAsync();
             return content;
         }
-
         private async void button1_Click(object sender, EventArgs e)
         {
             displayData.Text = "";
@@ -48,12 +47,33 @@ namespace LAB2
 
                 displayData.Text = "Name: " + pokemon.name + Environment.NewLine;
                 displayData.Text += "Pokedex ID: #" + pokemon.id.ToString() + Environment.NewLine;
-                displayData.Text += "Types: ";
+                /*displayData.Text += "Types: ";
                 foreach (var type in pokemon.types)
-                    displayData.Text += type.type.name + ", ";
-                displayData.Text = displayData.Text.TrimEnd(',', ' ') + Environment.NewLine;
+                    displayData.Text += type.type.name + ", ";*/
+               // displayData.Text = displayData.Text.TrimEnd(',', ' ') + Environment.NewLine;
                 displayData.Text += "Height: " + pokemon.height.ToString() + Environment.NewLine;
                 displayData.Text += "Weight: " + pokemon.weight.ToString() + Environment.NewLine;
+
+                //  using (var context = new Pokedex())
+                //{
+                var context = new Pokedex();
+                   /* var newPokemon = new Pokemon
+                    {
+                        name = pokemon.name,
+                        height = pokemon.height,
+                        weight = pokemon.weight,
+                        id = pokemon.id
+                    };*/
+
+                    context.Pokemons.Add(new Pokemon
+                    {
+                        name = pokemon.name,
+                        height = pokemon.height,
+                        weight = pokemon.weight,
+                        id = pokemon.id
+                    });
+                    context.SaveChanges();
+               // }
             }
             catch
             {
