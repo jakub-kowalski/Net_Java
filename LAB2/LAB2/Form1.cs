@@ -55,7 +55,7 @@ namespace LAB2
             displayData.Text += "Weight: " + pokemon.weight.ToString() + Environment.NewLine;
 
             // check if image file exists
-            //tring imagePath = AppDomain.CurrentDomain.BaseDirectory + "images\\" + pokemon.name.ToLower() + ".png";
+            //string imagePath = AppDomain.CurrentDomain.BaseDirectory + "images\\" + pokemon.name.ToLower() + ".png";
             string imagePath = @"C:\Users\DawidZaj¹c(259386)\source\repos\Net_Java\LAB2\LAB2\images";
             imagePath = Path.Combine(imagePath, pokemon.name.ToLower() + ".png");
 
@@ -75,10 +75,10 @@ namespace LAB2
                 PictureBox pictureBox = new PictureBox();
                 pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictureBox.Image = Image.FromFile(imagePath);
-                pictureBox.Width = 200;
-                pictureBox.Height = 200;
+                pictureBox.Width = 250;
+                pictureBox.Height = 250;
                 Controls.Add(pictureBox);
-                pictureBox.Location = new Point(300, 50);
+                pictureBox.Location = new Point(258, 12);
             }
         }
 
@@ -142,16 +142,11 @@ namespace LAB2
                 // Sprawdzenie, czy pokemon istnieje w bazie danych
                 var pokemon = pokedex.Pokemons.FirstOrDefault(p => p.name.ToLower() == nameOrId || p.id.ToString() == nameOrId);
 
-                if (pokemon != null)
-                {
-                    printData(pokemon);
-                }
-                else
+                
                 {
                     var json = await downloadRandomPokemon();
                     pokemon = JsonSerializer.Deserialize<Pokemon>(json);
                     readName.Text = "";
-
                     printData(pokemon);
 
                     // Dodanie nowego pokemona do bazy danych

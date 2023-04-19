@@ -48,12 +48,11 @@
             // 
             // displayData
             // 
-            displayData.Location = new Point(105, 271);
+            displayData.Location = new Point(9, 107);
             displayData.Margin = new Padding(3, 2, 3, 2);
             displayData.Multiline = true;
             displayData.Name = "displayData";
-            displayData.ScrollBars = ScrollBars.Vertical;
-            displayData.Size = new Size(161, 117);
+            displayData.Size = new Size(210, 88);
             displayData.TabIndex = 1;
             displayData.TextChanged += textBox1_TextChanged;
             // 
@@ -92,7 +91,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1019, 625);
+            ClientSize = new Size(462, 215);
             Controls.Add(button2);
             Controls.Add(textBox3);
             Controls.Add(readName);
